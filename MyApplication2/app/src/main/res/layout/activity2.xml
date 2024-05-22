@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tree_bg">
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009366">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="首页"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_2">
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/tree" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bamboo"
+            android:id="@+id/im_btn_1"
+            android:layout_alignTop="@+id/iv_3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            />
+
+        <ImageButton
+            android:id="@+id/im_btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/im_btn_1"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/bamboo" />
+
+        <ImageButton
+            android:id="@+id/im_btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/im_btn_1"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/bamboo" />
+        <ImageButton
+            android:id="@+id/im_btn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/im_btn_1"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="270dp"
+            android:background="@drawable/bamboo" />
+        <ImageButton
+            android:id="@+id/im_btn_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/im_btn_1"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="160dp"
+            android:background="@drawable/bamboo" />
+        <ImageButton
+            android:id="@+id/im_btn_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/im_btn_1"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/bamboo" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/iv_3"
+            android:background="@drawable/btn_peach"
+            android:layout_alignRight="@+id/iv_3"
+            android:layout_marginTop="20dp"
+            android:id="@+id/im_btn_7"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/im_btn_7"
+            android:text="退出竹园"
+            android:textColor="#000"
+            android:layout_alignLeft="@id/im_btn_7"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

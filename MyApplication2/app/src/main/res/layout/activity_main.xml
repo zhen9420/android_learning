@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009366">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="首页"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_1"
+            android:src="@drawable/panda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"/>
+        <ImageButton
+            android:id="@+id/imbtn_1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/iv_1"
+            android:layout_toRightOf="@+id/iv_1"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/btn_peach"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去竹园"
+            android:layout_alignTop="@+id/imbtn_1"
+            android:layout_alignLeft="@+id/imbtn_1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bamboo"
+            android:layout_below="@+id/imbtn_1"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/iv_1"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/iv_2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_2"
+            android:layout_alignTop="@+id/iv_2"
+            android:layout_marginLeft="10dp"
+            android:text="去采摘吧"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:id="@+id/tv_1"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
